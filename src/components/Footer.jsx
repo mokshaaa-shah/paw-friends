@@ -14,7 +14,7 @@ export default function Footeer() {
         </div>
         <div class="column">
           <h3>Services</h3>
-          <ul class="links">
+          <ul class="linksf">
             <li class="active">
               <Link to="/services">vaccination</Link>
             </li>
@@ -32,7 +32,7 @@ export default function Footeer() {
 
         <div class="column">
           <h3>who are we </h3>
-          <ul class="links">
+          <ul class="linksf">
             <li class="active">
               <Link to="/whoarewe">about</Link>
             </li>
@@ -46,7 +46,7 @@ export default function Footeer() {
         </div>
         <div class="column">
           <h3>get involved</h3>
-          <ul class="links">
+          <ul class="linksf">
             <li class="active">
               <Link to="/">donation</Link>
             </li>

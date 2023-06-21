@@ -11,8 +11,11 @@ export default function Signin() {
           </div>
         </div>
         <form class="signin-form">
-          <input type="text" placeholder="username" />
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Phone" />
+          <input type="email" placeholder="Email" />
           <input type="password" placeholder="password" />
+          <input type="password" placeholder="confirm password" />
           <Link to="/login">
             <button>SIGNUP</button>
           </Link>

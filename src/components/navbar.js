@@ -24,6 +24,9 @@ export default function Navbar() {
       <Link to="/signin" class="btn">
         DONATE
       </Link>
+      <Link to="/signin" class="signbtn">
+        SIGN UP
+      </Link>
     </div>
   );
 }

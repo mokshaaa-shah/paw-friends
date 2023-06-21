@@ -1,4 +1,6 @@
+import Medical from "./services/Medical";
 import Sterile from "./services/Sterile";
+import Vaccination from "./services/vaccination";
 
 export default function Services() {
   return (
@@ -9,6 +11,8 @@ export default function Services() {
       <h2> medical care </h2>
       <h2>rescues </h2> */}
       <Sterile />
+      <Vaccination />
+      <Medical />
     </div>
   );
 }
