@@ -31,9 +31,6 @@ export default function Contact() {
         </div>
         <img src={"/assets/david-lezcano-m-Doa-GTrUw-unsplash.jpg"} />
       </div>
-      <div className="adress">
-        you will find or medical clinic and shlelter at ...
-      </div>
     </div>
   );
 }

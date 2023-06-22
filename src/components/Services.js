@@ -1,4 +1,5 @@
 import Medical from "./services/Medical";
+import { Rescue } from "./services/Rescue";
 import Sterile from "./services/Sterile";
 import Vaccination from "./services/vaccination";
 
@@ -13,6 +14,7 @@ export default function Services() {
       <Sterile />
       <Vaccination />
       <Medical />
+      <Rescue />
     </div>
   );
 }

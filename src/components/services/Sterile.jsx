@@ -44,7 +44,7 @@ export default function Sterile() {
             effective and human way to control population and spread of
             diseases.
           </p>
-          <Link to="/signin" class="stbtn">
+          <Link to="/resgistersvr" class="stbtn">
             Register for steralization
           </Link>
         </div>

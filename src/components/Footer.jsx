@@ -16,16 +16,16 @@ export default function Footeer() {
           <h3>Services</h3>
           <ul class="linksf">
             <li class="active">
-              <Link to="/services">vaccination</Link>
+              <a href="/vaccination">vaccination</a>
             </li>
             <li>
-              <Link to="/services">Sterilisation</Link>
+              <a href="/steralization">Sterilisation</a>
             </li>
             <li>
-              <Link to="/services">medical care</Link>
+              <a href="/medicalcare">medical care</a>
             </li>
             <li>
-              <Link to="/services">rescues</Link>
+              <a href="/rescues">rescues</a>
             </li>
           </ul>
         </div>

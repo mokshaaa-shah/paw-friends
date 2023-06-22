@@ -8,10 +8,16 @@ import "./components/style.css";
 import Signin from "./components/Signin";
 import WhoAreWe from "./components/WhoAre";
 import Login from "./components/Login";
-import Donation from "./components/donation";
+import Donation from "./components/involved/donation";
 import Footeer from "./components/Footer";
 import Getinvolved from "./components/Getinvolved";
 import Contact from "./components/Contant";
+import Vaccination from "./components/services/vaccination";
+import Sterile from "./components/services/Sterile";
+import Medical from "./components/services/Medical";
+import { Rescue } from "./components/services/Rescue";
+import { Svr } from "./components/services/Svr-form";
+import { Rescueform } from "./components/services/Rescue-Form";
 function App() {
   return (
     <>
@@ -26,6 +32,12 @@ function App() {
           <Route path="/donation" element={<Donation />} />
           <Route path="/getinvolved" element={<Getinvolved />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/vaccination" element={<Vaccination />} />
+          <Route path="/steralization" element={<Sterile />} />
+          <Route path="/medicalcare" element={<Medical />} />
+          <Route path="/rescues" element={<Rescue />} />
+          <Route path="/resgistersvr" element={<Svr />} />
+          <Route path="/rescueform" element={<Rescueform />} />
         </Routes>
         <Footeer />
       </div>

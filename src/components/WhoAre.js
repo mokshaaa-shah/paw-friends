@@ -1,5 +1,6 @@
 import Contact from "./Contant";
-
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 export default function WhoAreWe() {
   return (
     <div className="wrwcontainer">
@@ -59,6 +60,27 @@ export default function WhoAreWe() {
       </div>
       <div className="contantform">
         <Contact />
+      </div>
+      <div className="reachout">
+        <h1>Reach Out</h1>
+        <p>
+          <h6>address:</h6> A3 building near thakur house <br />
+          ashok nagar kandivali east <br />
+          Mumbai 400101 maharashtra
+        </p>
+        <br />
+        <h6>Contant Info</h6>
+        <i className="phone">
+          <FaPhoneAlt />
+          +91 9322092845 <br />
+          <FaPhoneAlt />
+          +91 7506765361
+        </i>
+        <br />
+        <i className="envenlp">
+          <FaEnvelope />
+          info@PawFriends.com
+        </i>
       </div>
     </div>
   );

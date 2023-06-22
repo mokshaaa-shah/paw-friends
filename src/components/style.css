@@ -383,7 +383,26 @@ header {
     gap: 50px;
    
 }
- 
+#care1
+ {
+
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    gap: 50px;
+   
+
+ }
+ .rescuedonate{
+  border: none;
+  margin-top: 7px;
+margin-left: auto;
+margin-right: auto;
+  display: block;
+  cursor: pointer;
+ }
 .animalcare h1 {
     text-align: center;
     padding-bottom: 0px;
@@ -415,15 +434,15 @@ header {
 .card button {
     border: none;
     padding: 12px 24px;
-    border-radius: 50px;
-
+    border-radius: 40px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 600;
     color: #000000;
     background-color: #efc5c9;
 
     /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
-   
-    margin:  auto;
     display: block;
 
     /* Button is a clickable element, therefore it should have a pointer cursor */
@@ -432,7 +451,8 @@ header {
 
 .card__details {
     /* Add space around the details */
-    padding: 16px 8px 8px 8px;
+    padding: 16px 8px 4px 8px;
+    text-decoration: none;
 }
 .name{
 text-align: center;
@@ -443,6 +463,7 @@ button:focus,
 button:hover {
     background-color: #E44652;
     color: #e0efff;
+   
 }
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 /* header .header{
@@ -1032,11 +1053,286 @@ margin-top: 30px;
   margin-top: 20px;
   font-size: 25px;
   margin-left: 10px;
-  left: 20px;
+  left: 110px;
   display: flex;
 }
 .medicalcare li{
   list-style: none;
   padding: 10px;
   margin-left: 20px;
+  
+}
+.payment{
+  width: 500px;
+  height: 600px;
+  top: 0;
+    bottom: 10;
+    left: 0;
+    right: 0;
+    margin-bottom: 30px;
+    margin-left: 500px;
+   /*  margin: auto; */
+    padding: 10px 50px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 27px -3px rgba(0,0,0,0.87); 
+    box-shadow: 0px 0px 27px -3px rgba(0,0,0,0.87);
+ 
+
+}
+
+/* payTitle{
+  font-size: 20px;
+  color: lightgray;
+}
+ */
+label{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.payInput{
+  padding: 10px;
+  margin: 10px 29px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.payInput::placeholder{
+  color: lightgrey;
+}
+
+.cardIcons{
+  display: flex;
+}
+
+.cardIcon{
+  margin-right: 10px;
+}
+
+.cardInfo{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.sm{
+  width: 28%;
+}
+
+.payButton{
+  position: absolute;
+  height: 40px;
+  bottom: 40px;
+  width: 490px;
+  left: 505px;
+  -webkit-box-shadow: 0px 0px 27px -3px rgba(0,0,0,0.87); 
+  box-shadow: 0px 0px 27px -3px rgba(0,0,0,0.87);
+  background-color: #369e62;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.timings{
+  margin-top: 100px;
+  background-color: #f6d1d5;
+  height: 200px;
+}
+.timings h1{
+  text-align: center;
+padding-top: 20px;
+  margin-bottom: 20px;
+}
+.timings h1:after {
+  content: ' ';
+  display: block;
+  border: 3px solid #E44652;
+  width: 4%;
+  margin-left: 628px;
+  margin-right: auto;
+  margin-top: 2px;
+}
+.timings h4 {
+  font-size: 20px;
+text-align: center;
+padding: 5px;
+}
+.timings h5 {
+  font-size: 15px;
+text-align: center;
+
+}
+.reachout{
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  height: 400px;
+}
+
+
+.reachout h6{
+  font-size: 20px;
+  text-align: left;
+}
+.reachout p{
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: left;
+}
+.reachout i{
+  font-size: 20px;
+  padding: 5px;
+}
+.rescue1{
+  margin-top: 30px;
+  width: 100%;
+  height: 600px;
+  background-image: url("https://www.amtmindia.org/wp-content/uploads/2021/10/animal-rescue.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+   background-color: rgba(148, 143, 143, 0.7); 
+  background-blend-mode: multiply;
+}
+.rescue1 h1{
+  text-align: center;
+  text-transform: capitalize;
+ 
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.rescue1 p{
+font-weight: bold;
+margin-left: 50px;
+margin-top: 250px;
+  text-align: left;
+  text-transform: capitalize;
+  position: relative;
+  font-size: 36px;
+  
+  
+}
+
+.rescue1 h1:after {
+  content: ' ';
+  display: block;
+  border: 2px solid black;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9px;
+
+}
+.rescue  h1{
+  margin-top: 50px;
+
+}
+.rescuebtn{
+  position: relative;
+  font-size: 16px;
+  background-color: #E44652;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-weight: normal;
+ margin-left: 50px;
+ top: 30px;
+ border: none;
+ cursor: pointer;
+}
+.rescuetagline{
+  height: 300px;
+  background-color: #f6d1d5;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.rescuetagline h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 35px;
+}
+.rescuetagline p{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+.rescuetagline p:after {
+  content: ' ';
+  display: block;
+  border: 2px solid #E44652;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+
+}
+.registersvr {
+  width: 100%;
+  height: 100vh;
+  padding: 8% 0 0;
+  margin: auto;
+   background-image: url(/public/assets/nathalie-jolie-nKzeG3iE_Qg-unsplash.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply; 
+}
+.registersvr .svrform .svr{
+  margin-top: -31px;
+margin-bottom: 26px;
+}
+.svrform {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  opacity: 0.7;
+  max-width: 710px;
+  height: 610px;
+   margin: 0 auto 100px; 
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.svrform input {
+
+  outline: 0;
+  background: #ffffff;
+   width: 100%;
+  border: 1px solid rgb(133, 128, 128);
+   margin: 0 0 15px; 
+  padding: 25px;
+  box-sizing: border-box;
+  font-size: 14px;  
+}
+.svrform button {
+ 
+  text-transform: uppercase;
+  outline: 0;
+  background-color:#F1C40F;
+  /* background-image: linear-gradient(45deg,#F1C40F); */
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+ /*  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease; */
+  cursor: pointer;
+}
+.svrform .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.svrform .message a {
+  color: #000000;
+  text-decoration: none;
+}
+.svr-header{
+  padding-top: 20px;
+}
+.radio{
+  background-color: #000;
+  
 }

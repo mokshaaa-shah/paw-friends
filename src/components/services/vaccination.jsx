@@ -19,7 +19,7 @@ export default function Vaccination() {
             <br /> <br />
             Contact us, and get them to vaccinate .
           </p>
-          <Link to="/signin" class="vcbtn">
+          <Link to="/resgistersvr" class="vcbtn">
             Register for vaccination
           </Link>
         </div>
