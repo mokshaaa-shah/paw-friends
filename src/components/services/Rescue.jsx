@@ -19,20 +19,8 @@ export function Rescue() {
       description:
         "Rowdy is paralyzed and faces the danger of permanent paralysis. While he is currently in hospital and receiving treatment, he is in dire need of your support. Please donate to help us give Rowdy the best possible care.",
     },
-    {
-      img: "https://previews.123rf.com/images/malaha3/malaha32006/malaha3200600125/149894609-red-cat-with-a-damaged-eye-in-a-fight-red-blood-pets-street-cat-kitty-animal-world-predatory.jpg",
-      title: "Help Abbi",
-      description:
-        "Daaku has an eye issue that requires urgent attention. This 4-month-old needs your support so that she can get the best treatment possible. Please donate towards her treatment",
-    },
   ];
   const data1 = [
-    {
-      img: "/assets/Trooper.jpg",
-      title: "Help Trooper",
-      description:
-        "Trooper has a terrible maggot wound in and around his eye. He needs to be treated immediately so that his injury does not worsen. Please donate towards his treatment.",
-    },
     {
       img: "/assets/Luck.jpg",
       title: "Help Luck",
@@ -50,6 +38,20 @@ export function Rescue() {
       title: "Help Romeo",
       description:
         "Romeo is suffering from  maggot-infested wounds. He is trying his best to stay strong and survive but he’s in desperate need of your support. Please help Johnny by donating towards his treatment and care.",
+    },
+  ];
+  const data2 = [
+    {
+      img: "/assets/Trooper.jpg",
+      title: "Help Trooper",
+      description:
+        "Trooper has a terrible maggot wound in and around his eye. He needs to be treated immediately so that his injury does not worsen. Please donate towards his treatment.",
+    },
+    {
+      img: "https://previews.123rf.com/images/malaha3/malaha32006/malaha3200600125/149894609-red-cat-with-a-damaged-eye-in-a-fight-red-blood-pets-street-cat-kitty-animal-world-predatory.jpg",
+      title: "Help Abbi",
+      description:
+        "Daaku has an eye issue that requires urgent attention. This 4-month-old needs your support so that she can get the best treatment possible. Please donate towards her treatment",
     },
   ];
   return (
@@ -79,6 +81,11 @@ export function Rescue() {
         </div>
         <div id="care1">
           {data1.map((cardData) => (
+            <Rescuec data={cardData} />
+          ))}
+        </div>
+        <div id="care2">
+          {data2.map((cardData) => (
             <Rescuec data={cardData} />
           ))}
         </div>

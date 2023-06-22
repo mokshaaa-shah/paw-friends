@@ -21,12 +21,6 @@ export default function Home() {
       description:
         "Rowdy is paralyzed and faces the danger of permanent paralysis. While he is currently in hospital and receiving treatment, he is in dire need of your support. Please donate to help us give Rowdy the best possible care.",
     },
-    {
-      img: "https://previews.123rf.com/images/malaha3/malaha32006/malaha3200600125/149894609-red-cat-with-a-damaged-eye-in-a-fight-red-blood-pets-street-cat-kitty-animal-world-predatory.jpg",
-      title: "Help Abbi",
-      description:
-        "Daaku has an eye issue that requires urgent attention. This 4-month-old needs your support so that she can get the best treatment possible. Please donate towards her treatment",
-    },
   ];
   const change = [
     {
@@ -56,10 +50,9 @@ export default function Home() {
         <div class="content">
           <h1>sponsor an animal</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
-            ducimus harum corrupti perspiciatis corporis fugiat nesciunt quaerat
-            esse, magni quod debitis consequuntur exercitationem quae quo
-            deserunt iusto rem velit soluta.
+            Be Their Hero: Support Street Dogs with Your Donation
+            <br />
+            Give a Hand, Save a Paw: Donate to Help Street Dogs And Cats
           </p>
           <Link to="/signin" class="btn1">
             DONATE
@@ -78,10 +71,9 @@ export default function Home() {
       <div className="adopt">
         <h1>Adopt</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
-          laudantium cupiditate, possimus aperiam suscipit animi magnam quos
-          commodi vitae officia aut quis saepe optio minima praesentium, dolor
-          molestiae voluptates consequuntur!
+          Be Their Safe Haven: Adopt a Street Dog or Cat and Make a Difference
+          <br />
+          Open Your Heart and Your Home: Adopt a Street Dog or Cat
         </p>
         <Link to="/getinvolved" className="btn2">
           ADOPT
